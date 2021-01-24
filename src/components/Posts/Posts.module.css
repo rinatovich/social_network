@@ -1,0 +1,59 @@
+.postinput {
+    text-align: center;
+  }
+  .postinput .title{
+    padding-left:100px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  .postinput .input{
+    width: calc(100% - 50px);
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    outline: none;
+    padding: 0 10px;
+    color:#004445;
+  }
+  .btn_section{
+    text-align: right;
+    padding-right: 30px;
+  }
+  .btn_section button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6fb98f;
+    color:#004445;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .btn_section button:hover{
+    background-color: #ffd800;
+  }
+  
+  .postsarea{
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .postsarea .post{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #6fb98f;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  .postsarea .post .avatar img{
+    width: 75px;
+    border-radius: 50%;
+  }
+  .postsarea .post .text{
+    font-size: 18px;
+    margin-left: 30px;
+  }
+  
