@@ -40,20 +40,35 @@
     margin-left: 30px;
   }
   .postsarea .post{
-    display: flex;
+    display: grid;
     width: 90%;
-    align-items: center;
     margin-bottom: 30px;
     border-bottom: 1px solid #6fb98f;
     padding-bottom: 10px;
     border-radius: 10px;
+    grid-template-columns: 150px 1fr 100px;
   }
   .postsarea .post .avatar img{
-    width: 75px;
     border-radius: 50%;
+    width: 150px;
   }
   .postsarea .post .text{
-    font-size: 18px;
-    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px; 
+    font-size: 24px;
   }
-  
+  .likes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: right;
+  }
+  .likes i{
+    font-size: 40px;
+    color: gold;
+  }
+  .likes .likeCounter{
+    font-size: 30px;
+    color: orange;
+  }
