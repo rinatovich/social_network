@@ -1,0 +1,112 @@
+.diologs{
+    display: grid;
+    grid-template-columns: 3fr 10fr;
+}
+
+
+
+
+.companions_list{
+    padding: 0 10px;
+}
+.companion{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid lightblue;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.image img{
+    padding: 0 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+}
+.info{
+    display: flex;
+    align-items: center;
+}
+.name{
+    text-decoration: none;
+    color: lightblue;
+}
+.companion.activeCompanion{
+    border-bottom: 1px solid #6fb98f;
+    border-width: 5px;
+    transition: all 0.3s linear;
+}
+
+
+
+
+
+.messeges{
+    display: grid;
+    height: 90vh;
+    grid-template-rows: 1fr 10fr 3fr;
+}
+.topBar{
+    display: flex;  
+    padding-left: 50px;
+    align-items: center;
+    background-color: lightcyan;
+    color: black;
+    border-radius: 0 0 10px 10px;   
+}
+
+.messagesDisplay{
+    background-color: lightgrey;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+.message{
+    width: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    color: darkblue;
+    padding: 10px;
+    margin: 10px 0;
+}
+.send{
+    float: left;
+}
+.recieved{
+    float: right;
+}
+
+
+.bottomBar{
+    width: 100%;
+    display: flex;
+}
+#messageInput{
+    width: 90%;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    height: 25px;
+    background-color: rgba(0,0,0,0.5);
+    color: yellow;
+    
+}
+.btn{
+    height: 45px;
+    width: 30px;
+    margin-top: 1px;
+    border-radius: 0  10px 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: yellow;
+    color: darkblue;
+    font-size:24px;
+
+    transition: all 0.2s linear ;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: tomato;
+    transition: all 0.2s linear ;
+}
