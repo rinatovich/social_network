@@ -14,7 +14,7 @@ const Userinfo = ()=>{
                 <div className="user_city">Moscow</div>
             </div>
             <div className={style.row}>
-                <div className={style.property}>Educatio:</div>
+                <div className={style.property}>Education:</div>
                 <div className="user_eduaction">BSU'11</div>
             </div>
             <div className={style.row}>
